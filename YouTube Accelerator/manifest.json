@@ -1,0 +1,34 @@
+{
+  "manifest_version": 3,
+  "name": "YouTube Accelerator",
+  "description": "Quickly set YouTube playback speed with many preset options (1.25x up to 16x) and remember your choice.",
+  "version": "1.0",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [
+    "scripting",
+    "activeTab",
+    "storage"
+  ],
+  "host_permissions": [
+    "*://*.youtube.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "YouTube Accelerator"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.youtube.com/*"
+      ],
+      "js": [
+        "content_script.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

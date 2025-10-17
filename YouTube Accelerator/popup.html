@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>YouTube Accelerator</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>YouTube Accelerator</h1>
+    <div class="grid" id="buttons"></div>
+    <div class="custom">
+      <label for="customSpeed">Custom speed (e.g. 2.5):</label>
+      <input id="customSpeed" type="number" step="0.05" min="0.1" />
+      <button id="applyCustom">Apply</button>
+    </div>
+    <div class="status" id="status"></div>
+    <footer>Selected speed is saved and auto-applied on YouTube pages. Made by Arti Verma</footer>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

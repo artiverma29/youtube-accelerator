@@ -1,0 +1,11 @@
+*{box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{width:340px;margin:0;padding:12px;background:#fff;color:#111}
+.container h1{font-size:16px;margin:0 0 8px}
+.grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-bottom:8px}
+button.speed{padding:8px;border-radius:6px;border:1px solid #ddd;background:#f6f6f6;cursor:pointer}
+button.speed.active{background:#111;color:#fff;border-color:#111}
+.custom{display:flex;gap:6px;align-items:center;margin-bottom:8px}
+.custom input{flex:1;padding:6px;border-radius:6px;border:1px solid #ccc}
+#applyCustom{padding:6px 8px;border-radius:6px;border:1px solid #111;background:#111;color:#fff;cursor:pointer}
+.status{font-size:12px;color:#666;height:18px}
+footer{font-size:11px;color:#888;margin-top:8px}
