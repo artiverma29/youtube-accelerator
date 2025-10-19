@@ -1,0 +1,24 @@
+# OS system files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Editor settings (VS Code, JetBrains, etc.)
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Temporary / backup files
+*.tmp
+*.bak
+*.swp
+
+# Archive or compressed files (if you ever zip your extension)
+*.zip
+*.rar
+
+# Chrome extension package output
+*.crx
